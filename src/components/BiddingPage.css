@@ -1,0 +1,75 @@
+/* BiddingPage.css */
+
+/* Bidding page layout */
+.bidding-page {
+    display: flex;
+  }
+  
+  /* Left section for item image and details */
+  .left-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .item-image {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .item-image img {
+    height: 400px;
+    width: 600px;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  
+  .bid-details {
+    margin-top: 20px;
+  }
+  
+  /* Right section for bidders list and bid form */
+  .right-section {
+    width: 250px;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    background-color: #f2f2f2;
+  }
+  
+  .bidders-list {
+    margin-bottom: 20px;
+  }
+  
+  .bidders-list h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .bidders-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bidders-list li {
+    margin-bottom: 5px;
+  }
+  
+  .bid-form {
+    text-align: center;
+  }
+  
+  .bid-form input[type="number"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  
+  .bid-form button {
+    padding: 8px 16px;
+    background-color: #464646;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
